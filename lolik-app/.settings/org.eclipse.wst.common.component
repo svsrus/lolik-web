@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="lolik-app">
+        <wb-resource deploy-path="/" source-path="/src/main/application"/>
+        <dependent-module archiveName="lolik-app.ear" deploy-path="/" handle="module:/resource/lolik-app/lolik-app">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

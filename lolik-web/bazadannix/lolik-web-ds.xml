@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+    <local-tx-datasource>
+        <jndi-name>LolikWebDataSource</jndi-name>
+        <connection-url>jdbc:mysql://localhost:3306/lolik_web</connection-url>
+        <driver-class>com.mysql.jdbc.Driver</driver-class>
+        <user-name>lolik_web</user-name>
+        <password>lolik_web</password>
+    </local-tx-datasource>
+</datasources>

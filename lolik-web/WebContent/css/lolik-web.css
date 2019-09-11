@@ -1,0 +1,155 @@
+@CHARSET "UTF-8";
+
+.zagruzka {
+	font-family: Monotype Corsiva;
+	font-size: 22pt;
+	color: white;
+	text-align: center;
+	text-shadow: gray 4px 4px 4px;
+}
+.zagolovok {
+	font-family: Monotype Corsiva;
+	font-size: 22pt;
+	color: #6400ff;
+	text-shadow: gray 2px 2px 2px;
+	float: left;
+}
+.zagolovokTekst {
+	font-family: Monotype Corsiva;
+	font-size: 22pt;
+	color: #6400ff;
+	text-shadow: gray 2px 2px 2px;
+}
+.tekst {
+	font-family: Monotype Corsiva;
+	font-size: 16pt;
+	text-align: justify;
+	color: #6400ff;
+	text-shadow: gray 2px 2px 2px;
+}
+.leviiTekst {
+	font-family: Monotype Corsiva;
+	font-size: 16pt;
+	text-align: right;
+	color: #5a00dc;
+	text-shadow: gray 2px 2px 2px;
+}
+.kompoziciaZagolovok {
+	font-family: Monotype Corsiva;
+	font-size: 16pt;
+	color: #6400ff;
+	text-shadow: gray 2px 2px 2px;
+}
+.kompoziciaTekst {
+	font-family: Monotype Corsiva;
+	font-size: 14pt;
+	color: #5a00dc;
+	padding-right: 20px;
+	vertical-align: top;
+	text-shadow: gray 2px 2px 2px;
+}
+.opisanieZagolovok {
+	font-family: Monotype Corsiva;
+	font-size: 16pt;
+	color: #6400ff;
+	text-shadow: gray 2px 2px 2px;
+}
+.opisanieTekst {
+	font-family: Monotype Corsiva;
+	font-size: 15pt;
+	color: #5a00dc;
+	padding-right: 20px;
+	text-align: justify;
+	text-shadow: gray 2px 2px 2px;
+}
+.pokupkaZagolovok {
+	font-family: Monotype Corsiva;
+	font-size: 16pt;
+	text-align: center;
+	color: #5a00dc;
+	text-shadow: gray 2px 2px 2px;
+}
+.ssilka {
+	font-family: Monotype Corsiva;
+	font-size: 12pt;
+	color: #6400ff;
+	text-shadow: gray 2px 2px 2px;
+}
+.oprosVopros {
+	font-family: Monotype Corsiva;
+	font-size: 17pt;
+	text-align: center;
+	color: #9601ff;
+	text-shadow: gray 2px 2px 3px;
+}
+.oprosOtvet {
+	font-family: Monotype Corsiva;
+	font-size: 16pt;
+	text-align: justify;
+	color: #ffffff;
+	text-shadow: #730074 2px 2px 2px;
+	padding-left: 10px;
+}
+.oprosOshibka {
+	font-family: Monotype Corsiva;
+	font-size: 14pt;
+	text-align: justify;
+	color: white;
+	text-shadow: #730074 2px 2px 2px;
+	padding-left: 6px;
+	padding-right: 12px;
+	padding-bottom: 6px;
+	list-style-type: circle;
+}
+.oprosKolichestvoOtvetov {
+	font-family: Monotype Corsiva;
+	font-size: 16pt;
+	text-align: justify;
+	color: #ffffff;
+	text-shadow: #730074 2px 2px 2px;
+	margin-top: 10px;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	border-top: 1px solid white;
+}
+.oprosKnopka {
+	cursor: pointer;
+	padding-left: 100px;
+	padding-top: 6px;
+}
+.bolshaiaRamkaZagolovok {
+	font-family: Monotype Corsiva;
+	font-size: 14pt;
+	text-align: left;
+	color: #6400ff;
+	text-shadow: gray 2px 2px 2px;
+	margin-left: 8px;
+}
+.bolshaiaRamkaOpisanie {
+	font-family: Monotype Corsiva;
+	font-size: 12pt;
+	text-align: left;
+	color: #6400ff;
+	text-shadow: gray 2px 2px 2px;
+	margin-left: 8px;
+	float: left;
+}
+.opisanieVvoda {
+	font-family: Monotype Corsiva;
+	font-size: 16pt;
+	text-align: right;
+	color: #6400ff;
+	text-shadow: gray 2px 2px 2px;
+	padding-right: 5px;
+}
+.vvodTexta {
+	background-image: url('../img/lolik-opros-fon.png');
+	font-family: Monotype Corsiva;
+	font-size: 16pt;
+	color: #6400ff;
+	text-shadow: gray 2px 2px 2px;
+	width: 300px;
+	padding: 3px 5px 3px 5px;
+	border: 1px inset #6400ff; 
+}

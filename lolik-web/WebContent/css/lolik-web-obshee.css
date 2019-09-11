@@ -1,0 +1,189 @@
+@CHARSET "UTF-8";
+* html
+{
+    padding:0;
+    margin:0;
+}
+body {
+    cursor: default;
+}
+* {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: -moz-none;
+	-o-user-select: none;
+	user-select: none;
+}
+input, .kopiruemaiaSsilka {
+	-webkit-user-select: text;
+	-khtml-user-select: text;
+	-moz-user-select: text;
+	-o-user-select: text;
+	user-select: text;
+}
+label {
+    cursor: pointer;
+}
+.radio {
+    cursor: pointer;
+}
+.checkbox {
+    cursor: pointer;
+}
+.knopka {
+    cursor: pointer;
+}
+.oprosRamka {
+	position: absolute;
+	text-align: center;
+	margin-left: 230px;
+	margin-top: -14px;
+	width: 400px;
+	z-index: 1;
+}
+.oprosMenu {
+	width: 400px;
+	height: 28px;
+}
+.oprosKonteiner {
+	position: relative;
+	overflow: hidden;
+	display: none;
+	margin: 0 auto;
+}
+.oprosLevaiaRamka {
+	float: left;
+	width: 17px;
+	height: 100%;
+	padding-bottom: 2000em;
+	margin-bottom: -2000em;
+	background-image: url('../img/lolik-opros_l.png');
+	background-repeat:repeat;
+}
+.oprosCentr {
+	margin-left: 17px;
+	width: 370px;
+	background-image: url('../img/lolik-opros-fon.png');
+	background-repeat:repeat;
+	text-align: left;
+}
+.oprosCentr p {
+	margin: 0;
+	padding: 5px;
+}
+.oprosCentr form {
+	margin: 0;
+}
+.oprosCentr span {
+	padding-left: 10px;
+	display: block;
+}
+.oprosPravaiaRamka {
+	float: right;
+	width: 16px;
+	height: 100%;
+	padding-bottom: 2000em;
+	margin-bottom: -2000em;
+	background-image: url('../img/lolik-opros_p.png');
+	background-repeat:repeat;
+}
+.oprosKorrekcia {
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+	clear: both;
+}
+.glavnaiaRamka {
+	vertical-align: top;
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+}
+.kolonkaYazikov {
+	text-align: right;
+	vertical-align: top;
+}
+.flag {
+	margin-top: 5px;
+}
+.zagolovokRamka {
+	padding-bottom: 15px;
+}
+.zvezdaRazdela {
+	float: right;
+	margin-right: 0px;
+	margin-top: 10px;
+}
+.bolshaiaRamkaZvezda {
+	float: right;
+	vertical-align: top;
+	margin-right: 5px;
+}
+.bolshaiaLevaiaRamka {
+	float:left;
+	margin-right:25px;
+	margin-bottom:30px;
+}
+.bolshaiaPravaiaRamka {
+	float:right;
+	margin-bottom:30px;
+}
+.muzikalniiAlbomRamkaZvezda {
+	float: left;
+	vertical-align: top;
+	margin-top; 5px;
+	margin-left: 8px;
+}
+.malenkaiaRamkaZvezda {
+	text-align:center;
+	vertical-align: top;
+}
+.kompoziciaRamkaZvezda {
+	text-align:center;
+	vertical-align: top;
+	margin-left: 20px;
+}
+.kartinkaSoobshenia {
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-right: 10px;
+	float: left;
+}
+.soobshenia {
+	border-color: #9600ff;
+	border-style: solid;
+	border-width: 1px;
+	background-image: url('../img/lolik-opros-fon.png');
+	background-repeat: repeat;
+	margin-left: 9px;
+	padding: 3px 10px 8px 10px;
+	vertical-align: middle;
+	font-family: Monotype Corsiva;
+	font-size: 15pt;
+	text-align: justify;
+	text-shadow: gray 2px 2px 2px;
+	color: #6400ff;
+	width: 775px;
+	display: none;
+}
+
+/* Дополнительные */
+img { border: none; }
+a:link { text-decoration: none; }
+a:active { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+/* JQuery TinyScrollbar */
+#scrollbar1 { width: 830px; clear: both; margin: 0px 0px 0px 0px; }
+#scrollbar1 .viewport { width: 810px; height: 390px; overflow: hidden; position: relative; }
+/*#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; }*/
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; margin-right: 5px; font-family: Monotype Corsiva; font-size: 16pt; text-align: justify; color: #6400ff; text-shadow: gray 2px 2px 2px; }
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb { background-color: #d26eff; }
+#scrollbar1 .scrollbar { position: relative; float: right; width: 12px; }
+#scrollbar1 .track { background-color: #9600ff; height: 100%; width:8px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { height: 20px; width: 8px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 12px; }
+#scrollbar1 .disable{ display: none; }

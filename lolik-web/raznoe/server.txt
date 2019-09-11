@@ -1,0 +1,1 @@
+-Dhttp.proxyHost=proxy.ar.hsbc -Dhttp.proxyPort=80 -Dhttp.proxyUser=43299999 -Dhttp.proxyPassword=Test2222 -Dprogram.name=run.bat -Xms128m -Xmx512m  -XX:MaxPermSize=256m -Dxb.builder.useUnorderedSequence=true

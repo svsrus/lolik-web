@@ -1,0 +1,12 @@
+I18N
+http://techtracer.com/2008/03/02/implementing-websites-for-internationalization/
+
+Hibernate I18N
+http://stackoverflow.com/questions/4460966/best-practice-for-entities-localization-in-java-spring-web-applications
+
+JPA-Spring-Hibernate
+http://stackoverflow.com/questions/374886/spring-hibernate-jpa-calling-persist-on-entitymanager-does-not-seem-to-commit
+http://www.minutouno.com.ar/minutouno/galeria/aid_144127__iid_133579__p_0/
+
+Hibernate Formula/View
+http://www.jroller.com/eyallupu/entry/hibernate_derived_properties_performance_and

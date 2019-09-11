@@ -1,0 +1,1 @@
+CREATE SCHEMA `lolik_web` DEFAULT CHARACTER SET utf8 ;
